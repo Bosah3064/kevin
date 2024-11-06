@@ -1,0 +1,399 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: #0de814;
+}
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #0066cc;
+    font-size: medium;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #005bb5;
+}
+
+/* Content Sections */
+.section {
+    margin: 20px;
+    padding: 20px;
+    background: #e0e5ec;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url('img/narb.jpg');
+}
+/*---Our objects---*/
+.service-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url('img/narb.jpg');
+}
+.tabs {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+.card img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 8px 0 0 8px;
+}
+/*---Industries---*/
+.service-bosa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url('img/backgr serv.jpg');
+}
+.bosa {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+}
+.bosa {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+.bosa img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 8px 0 0 8px;
+}
+/*----social media---*/
+.footer-media{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+}
+.social-media a{
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #09078d;
+    color: #12f7ff;
+    border: 2px solid #12f7ff;
+    transition: .6s;
+    box-shadow: 0,0,0.3rem #12f7ff;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-media a i{
+    font-size: 1.5rem;
+}
+.social-media a:hover{
+    color:#0b6cce;
+}
+.footer-media a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #12f7ff;
+    transition: .6s;
+    z-index: -1;
+}
+.social-media a:hover::before{
+    width: 100%;
+}
+
+/* clients logos */
+.client-logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.client{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;max-width: 120px;
+
+}
+.client img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+/*insights--*/
+#insights {
+    padding: 40px 0;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+#insights h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.boss{
+    color: #555;
+}
+.insight-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.insight .icon {
+    font-size: 2em;
+    color: blue; /* Green color for icons */
+    margin-bottom: 10px;
+}
+
+.insight {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.insight h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.insight .figure {
+    font-size: 1.8em;
+    color: #28a745; /* Green color for figures */
+    font-weight: bold;
+}
+/* WhatsApp Icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--coral);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+  
+.whatsapp-icon:hover {
+    background-color: var(--bright-teal);
+}
+  
+.whatsapp-icon img {
+    width: 35px; /* Size of the WhatsApp logo */
+    height: 35px;
+}
+  
+/* Responsive Design */
+@media (min-width: 768px) {
+    .service-cards {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 992px) {
+    .service-cards {
+        justify-content: space-between;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* contact us */
+.kemu {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+/* List Styling */
+.values ul, .industry-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+/* Typing Animation with Color for AKEMI CONSULTING Ltd */
+.typing {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    overflow: hidden; /* Ensures that the text is clipped when the animation plays */
+    white-space: nowrap; /* Keeps the text on a single line */
+    color: transparent;
+    background-image: linear-gradient(90deg, #4CAF50, #2196F3, #FF5722); /* Color gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: typing 4s steps(30, end), colorChange 4s linear infinite;
+    border-right: none; /* Removes the inline cursor */
+    position: relative;
+}
+
+/* Separate Cursor Element */
+.typing::after {
+    content: '.'; /* Use | as the cursor */
+    position: absolute;
+    right: -5px; /* Position cursor at the end of text */
+    animation: blink-caret 0.7s step-end infinite; /* Blinking effect */
+    color: #fff; /* Cursor color */
+}
+/* WhatsApp Icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--coral);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+  
+.whatsapp-icon:hover {
+    background-color: var(--bright-teal);
+}
+  
+.whatsapp-icon img {
+    width: 35px; /* Size of the WhatsApp logo */
+    height: 35px;
+}
+
+/* Typing Effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Cursor Blinking Effect */
+@keyframes blink-caret {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Color Change Animation */
+@keyframes colorChange {
+    0% { background-position: 0% 50%; }
+    /*100% { background-position: 100% 50%; }*/
+}
